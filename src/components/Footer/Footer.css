@@ -1,0 +1,42 @@
+/* ── FOOTER ── */
+footer {
+  border-top: 1px solid var(--border);
+  padding: 28px 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--space);
+  position: relative;
+  z-index: 1;
+}
+
+.ft-name {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-2);
+}
+
+.ft-copy {
+  font-size: 0.73rem;
+  color: var(--text-3);
+}
+
+.ft-scroll {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.72rem;
+  color: var(--text-3);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.ft-scroll:hover {
+  color: var(--cyan);
+}
+
+@media(max-width:960px) {
+  footer {
+    padding: 24px;
+  }
+}
